@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+envguard/__init__.py
+envguard/cli.py
+envguard.egg-info/PKG-INFO
+envguard.egg-info/SOURCES.txt
+envguard.egg-info/dependency_links.txt
+envguard.egg-info/entry_points.txt
+envguard.egg-info/top_level.txt

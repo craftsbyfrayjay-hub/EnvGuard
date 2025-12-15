@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envguard"
+version = "0.1.1"
+description = "Compare .env files and detect missing or extra variables"
+authors = [{ name="CraftsByFrayJay" }]
+dependencies = []
+
+[project.scripts]
+envguard = "envguard.cli:main"
