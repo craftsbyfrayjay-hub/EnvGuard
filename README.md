@@ -19,3 +19,8 @@ envguard compare .env.example .env
 ## Security
 EnvGuard only compares variable names.
 Values are never read, stored, or logged.
+
+## Commercial version
+
+For commercial use, binaries, and future updates:
+👉 https://gumroad.com/l/envguard

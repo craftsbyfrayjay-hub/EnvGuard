@@ -28,8 +28,13 @@ def print_section(title, items):
     print()
 
 def main():
+    if len(sys.argv) == 2 and sys.argv[1] in ("-h", "--help"):
+        print("Usage: envguard compare <fileA> <fileB>")
+        sys.exit(0)
+
     if len(sys.argv) != 4 or sys.argv[1] != "compare":
         print("Usage: envguard compare <fileA> <fileB>")
+        sys.exit(0)
 
     file_a = sys.argv[2]
     file_b = sys.argv[3]
